@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">项目名称</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_log_out">退出登陆</string>
+    <string name="title_activity_login">登 陆</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">电话</string>
+    <string name="prompt_password">密码 (至少6位)</string>
+    <string name="action_sign_in">登陆 / 注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">此手机号无效</string>
+    <string name="error_invalid_password">此密码太短</string>
+    <string name="error_incorrect_password">此密码不正确</string>
+    <string name="error_field_required">登陆信息不能为空</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">项目</string>
+    <string name="title_notifications">游戏</string>
+    <string name="title_measure">压测</string>
+
+
+    <string name="no_more">没有更多了</string>
+    <string name="more_loading">更多加载中...</string>
+
+
+    <string name="scan">扫一扫</string>
+
+    <string name="confirm_login">确认登陆</string>
+
+
+    <string name="nice_name">昵称</string>
+    <string name="nice_pwd">房间密码</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="等待玩家加入。。。"/>
+    <TextView
+        android:id="@+id/wTv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="玩家[sdsadsa]加入"/>
+    <TextView
+        android:id="@+id/wTv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="玩家[sdsadsa]加入"/>
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="10"/>
+</LinearLayout>

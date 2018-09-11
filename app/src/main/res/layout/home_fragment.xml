@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1d1d6"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+    <com.tuesda.walker.circlerefresh.CircleRefreshLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:AniBackColor="#ff8b90af"
+        app:AniForeColor="#ffffffff"
+        app:CircleSmaller="6"
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/home_text"
+                android:text="有下拉刷新的页面"/>
+        </ScrollView>
+
+    </com.tuesda.walker.circlerefresh.CircleRefreshLayout>
+</RelativeLayout>

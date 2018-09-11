@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 第二个页面进入时第一个页面不会出现黑屏 -->
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:textColorSecondary">@color/colorAccent</item>-->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        <!--<item name="android:windowBackground">@color/colorPrimary</item>-->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="noActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@animator/push_right_in</item>
+        <item name="android:activityOpenExitAnimation">@animator/push_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@animator/push_left_in</item>
+        <item name="android:activityCloseExitAnimation">@animator/push_right_out</item>
+    </style>
+
+
+    <style name="CustomLabelBlueBg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@color/mainBlue</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/four</item>
+        <item name="android:paddingBottom">@dimen/one</item>
+        <item name="android:paddingEnd">@dimen/four</item>
+        <item name="android:layout_marginEnd">@dimen/eight</item>
+        <item name="android:textSize">@dimen/font_11</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/mainWhite</item>
+    </style>
+
+    <style name="LineOneVertical">
+        <item name="android:layout_width">@dimen/one</item>
+        <item name="android:background">@color/mainBlack5B</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="LineOnePointFive">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/mainGrayF0</item>
+        <item name="android:layout_height">@dimen/one_point_five</item>
+    </style>
+
+
+    <style name="UserCenterIntegralNumTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/sixteen</item>
+        <item name="android:textColor">@color/mainRed</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="UserCenterIntegralTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/nine</item>
+        <item name="android:textColor">@color/mainBlack</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_12</item>
+    </style>
+
+    <style name="LineEight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/mainGrayF0</item>
+        <item name="android:layout_height">@dimen/eight</item>
+    </style>
+
+    <style name="UserTitleAvatar">
+        <item name="android:layout_width">@dimen/thirty_two</item>
+        <item name="android:layout_height">@dimen/thirty_two</item>
+        <item name="android:layout_marginEnd">@dimen/five</item>
+    </style>
+</resources>
